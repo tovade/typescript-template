@@ -1,0 +1,31 @@
+{
+    "extends": [
+        "config:base",
+        "helpers:pinGitHubActionDigests",
+        ":semanticCommits"
+    ],
+    "branchConcurrentLimit": 20,
+    "dependencyDashboard": true,
+    "major": {
+        "dependencyDashboardApproval": true
+    },
+    "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "minor",
+                "patch",
+                "pin",
+                "digest"
+            ],
+            "matchCurrentVersion": "!/^0/",
+            "automerge": true,
+            "automergeStrategy": "squash"
+        },
+        {
+            "groupName": "GitHub Actions",
+            "matchManagers": [
+                "github-actions"
+            ]
+        }
+    ]
+}
