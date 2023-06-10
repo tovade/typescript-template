@@ -27,7 +27,7 @@
     "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */,
     "noUncheckedIndexedAccess": true /* Include 'undefined' in index signature results */,
     "noPropertyAccessFromIndexSignature": true /* Require undeclared properties from index signatures to use element accesses. */,
-
+    "allowJs": true,
     /* Module Resolution Options */
     "moduleResolution": "node" /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */,
     "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
@@ -36,6 +36,6 @@
     "skipLibCheck": true /* Skip type checking of declaration files. */,
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
   },
-  "include": ["src/**/*.ts", ".env"],
+  "include": ["src/**/*.ts", "tests/**/*.spec.ts", "./jest.config.cjs", ".env"],
   "exclude": ["node_modules"]
 }
