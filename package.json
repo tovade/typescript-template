@@ -1,0 +1,14 @@
+{
+  "name": "typescript-template",
+  "version": "0.0.0",
+  "description": "A typescript template to start from with your next project.",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Tovade",
+  "license": "ISC"
+}
