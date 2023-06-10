@@ -10,6 +10,10 @@ You are welcome to extend and overwrite the configs as you desire (please do not
 
 TypeScript will read from the `src` directory and compile to a `build` directory.
 
+## Credits
+
+The labels for issues and pull requests are used from [noami](https://github.com/naomi-lgbt).
+
 ## Readme
 
 Below this line is the template for a project readme. Delete all of the text above, and uncomment the text below to use the template.
@@ -38,14 +42,13 @@ Before interacting with our community, please read our [Code of Conduct](CODE_OF
 
 ## Licensing
 
-Copyright (C) 2022 Naomi Carrigan
+Copyright (C) 2022 Tovade
 
-This Source Code Form is subject to the terms of the Mozilla Public
-License, v. 2.0. If a copy of the MPL was not distributed with this
-file, You can obtain one at http://mozilla.org/MPL/2.0/.
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+This is free software, and you are welcome to redistribute it under certain conditions;
 
 The full license terms may be viewed in the [LICENSE.md file](./LICENSE.md)
 
 ## Contact
 
-We may be contacted through our [Chat Server](http://chat.nhcarrigan.com) or via email at `contact@nhcarrigan.com`.-->
+We may be contacted through our [Discord](https://discord.gg/BXAs3cMdPX) or via email at `tovade.dev@gmail.com`.-->

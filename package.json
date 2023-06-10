@@ -4,11 +4,24 @@
   "description": "A typescript template to start from with your next project.",
   "main": "./build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"**/*.{js,jsx,json,ts,tsx,yml,md}\"",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test:tsc": "tsc --noEmit",
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc",
+    "start": "node ./build/src/index.js"
   },
   "keywords": [
     "typescript"
   ],
   "author": "Tovade",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@casper124578/eslint-config": "^5.0.1",
+    "@types/glob": "^7.2.0",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.28.0",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.3"
+  }
 }
